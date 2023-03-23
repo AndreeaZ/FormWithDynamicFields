@@ -1,11 +1,14 @@
 import './App.css';
+import React from 'react';
+
+import { Form } from './Form';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         
-      <h>This is the initial App</h>
+        <Form />
       </header>
     </div>
   );
